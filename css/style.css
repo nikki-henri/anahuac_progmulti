@@ -1,5 +1,14 @@
 * {
     background-color: rgb(187, 170, 228);
     margin: 0px;
-    padding: 0 2px 0 2px;
+    padding: 0 5px 0 5px;
+}
+
+.galeria, 
+.recomend {
+    display: inline-block;
+}
+
+.navdown {
+    text-align: center;
 }
