@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head> 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,89 +9,126 @@
     </head>
     <body>
         <header>
-            <div class="Logo">
-                <img src="imagenes/NavTop/Logo.png" alt="">
-            </div>
-            <div class="explorar">  
-                <img src="imagenes/NavTop/lupa.png" alt="">
-                <h2># Descubre Más Comunidades</h2>
-            </div>
-            <div class="menu"> 
-                <ul>
-                    <img src="imagenes/NavTop/weeb.png" alt="">
-                    <img src="imagenes/NavTop//home.png" alt="">
-                    <img src="imagenes/NavTop/perfil.png" alt="">
-                    <img src="imagenes/NavTop/confi.png" alt="">
-                </ul>
-            </div>
-            <div class="Log">
-                <p>Log Out</p>
+            <div class="TopNav">
+                <div class="Logo">
+                    <img src="imagenes/NavTop/Logo.png" alt="">
+                </div>
+                <div class="explorar"> 
+                    <div>
+                        <div class="search">
+                            <p class="lupa">
+                                <img src="imagenes/NavTop/lupa.png" alt="">
+                            </p>
+                            <div class="search--wrapper">
+                                <form class="search--form" action="#" method="post">
+                                     <div class="search--input-wrapper">
+                                        <input class="search--input" type="search" placeholder="search">
+                                    </div>
+                                    <input class="search--submit" type="submit" value="&#10140;"/>
+                                </form>
+                            </div>
+                        </div>
+                    </div> 
+                
+                </div>
+                <div class="menu"> 
+                    <ul>
+                        <img src="imagenes/NavTop/weeb.png" alt="">
+                        <img src="imagenes/NavTop//home.png" alt="">
+                        <img src="imagenes/NavTop/perfil.png" alt="">
+                        <img src="imagenes/NavTop/confi.png" alt="">
+                    </ul>
+                </div>
+                <div class="Logout">
+                    <p>Log Out</p>
+                </div>
             </div>
         </header>
 
         <main>
-            <div>
-               <img src="imagenes/grupos/cache.png" alt="">
-               <img src="imagenes/grupos/gleee.png" alt="">
-               <img src="imagenes/grupos/Disney.png" alt="">
-               <img src="imagenes/grupos/Marvel.png" alt="">
-               <img src="imagenes/grupos/drew.png" alt="">
-               <img src="imagenes/grupos/addNA.png" alt="">
-            </div>
-            <div>
-                h. @snixxnaya
-                Postea lo que gustes…
-                Post
-                <hr>
-                Karla @adorablecalle
-                Hoy hay nuevo edit.
-                <hr>
-                Nikki @nikkibieber 
-                Voten por su pareja fav…
-                Brittana (Glee)
-                Haleb (PLL)
-                Stydia (Teen Wolf)
-            </div>
-            <div class="galeria">
-                <img src="imagenes/GalRec/imagen.png" alt="">
-                <h1>Galeria</h1>
-                
-                <div>
-                    <ul>
-                        <p>Dibujos y Fotos</p>
-                        <p>Fancams</p>
-                        <p>Encuestas</p>
-                    </ul>
+            <div class="cuerpo">
+                <div id="contenedor" class="clearfix">
+                    <div id="principal">
+                        <div class="grupos">
+                            <img src="imagenes/grupos/cache.png" alt="">
+                            <img src="imagenes/grupos/gleek.png" alt="">
+                            <img src="imagenes/grupos/Disney.png" alt="">
+                            <img src="imagenes/grupos/Marvel.png" alt="">
+                            <img src="imagenes/grupos/drew.png" alt="">
+                            <img src="imagenes/grupos/addNA.png" alt="">
+                        </div>
+                        <div class="puntos">
+                            <p>...</p>
+                        </div>
+                        <div class="post">
+                            <div class="post1">
+                                <img src="imagenes/home/naya.png" alt="">
+                                <p>h. @snixxnaya</p>
+                                <p>Postea lo que gustes…</p>
+                                <p class="postea">Post</p> 
+                            </div>
+                            <div class="post2">
+                                <img src="imagenes/home/vale.png" alt="">
+                                    <p>Karla @adorablecalle</p>
+                                    <p>Hoy hay nuevo edit.</p>
+                            </div>
+                            <div class="post3">
+                                <img src="imagenes/home/jb.png" alt="">
+                                    <p>Nikki @nikkibieber </p>
+                                    <p>Voten por su pareja fav…</p>
+                                    <ul>
+                                        <p>Brittana (Glee)</p>
+                                        <p>Haleb (PLL)</p>
+                                        <p>Stydia (Teen Wolf)</p>
+                                    </ul> 
+                            </div>
+                        </div>  
+                    </div>
+                        
+                    <div id="lateral">
+                        <div class="derecha">
+                            <div class="galeria">
+                                <div>
+                                    <img src="imagenes/GalRec/imagen.png" alt="">
+                                    <h1>Galeria</h1>
+                                </div>
+                                <div class="galee">
+                                    <ul>
+                                        <p>DIBUJOS Y FOTOS</p>
+                                        <p>FANCAMS</p>
+                                        <p>ENCUESTAS</p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="recomend">
+                                <div>
+                                    <img src="imagenes/GalRec/recomm.png" alt="">
+                                    <h1></p>Recomendaciones</h1>  
+                                </div>
+                                <ul>
+                                    <img src="imagenes/GalRec/PH.png" alt="">
+                                    <img src="imagenes/GalRec/morado.png" alt="">
+                                    <img src="imagenes/GalRec/SW.png" alt="">
+                                    <img src="imagenes/GalRec/friends.png" alt="">
+                                    <img src="imagenes/GalRec/SL.png" alt="">
+                                    <img src="imagenes/GalRec/addWA.png" alt="">
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        
                 </div>
-            </div>
-            <div class="recomend">
-                <img src="imagenes/GalRec/recomm.png" alt="">
-                <h1></p>Recomendaciones</h1>
+
             </div>
         </main>
 
         <footer>
             <div class="navdown">
-                <div>
-                    <h3>¿Quienes Somos?</h3>
-                </div>
-                <div>
-                    <h3>Contactanos!</h3>
-                </div>
-                <div>
-                    <ul>
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                    </ul>
-                </div>
-                <div>
-                    <h3>Subscribete</h3>
-                </div>
-                <div>
-                    <p>...</p>
-                </div>
+                <a>¿Quienes Somos?</a>
+                <a>Contactanos!</a>    
+                <a> <img src="imagenes/NavDown/redes.png" alt=""></a>
+                <a>Subscribete</a>
+                <a>...</a>
             </div>
         </footer>
     

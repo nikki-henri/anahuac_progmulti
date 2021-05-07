@@ -1,14 +1,249 @@
 * {
     background-color: rgb(187, 170, 228);
     margin: 0px;
-    padding: 0 5px 0 5px;
+    padding: 0px;
+}
+
+.TopNav{
+    cursor: pointer; 
+    display: flex;
+    display: inline-table;
+    width: 100%;
+}
+
+.Logo,
+.explorar,
+.menu,
+.Logout {
+    display: inline-block;
+    justify-content:space-between;
+}
+
+.Logo {
+    text-align: left;   
+}
+.explorar {
+    text-align: center;
+}
+.menu {
+    text-align: center;
+}
+.Logout {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    border: solid 2px black;
+    border-radius: 0.5px;
+    text-decoration: none;
+}
+
+.TopNav,
+.grupos,
+.puntos,
+.galeria,
+.recomend,
+.navdown{
+    border: solid 3px black;
+    border-radius: 0.5px;
+}
+
+.grupos {
+    text-align: center;
+}
+
+.puntos {
+    text-align: right;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post1,
+.post2,
+.post3 {
+    border: solid 2px black;
+    border-radius: 1.5px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.postea {
+    border: solid 2px black;
+    border-radius: 1.5px;
+    width: 30px; height: 20px;
+    text-align: right;
+}
+
+.post {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post .p {
+    text-align:right;
+}
+.post .img {
+    align-items: center;
+}
+.post3 ul p {
+    border: solid 2px rgb(50, 50, 50);
+    border-radius: 1.5px;
+    width: 200px; height: 20px;
+    text-align: center;
+    background-color: rgb(255, 208, 146);
 }
 
 .galeria, 
 .recomend {
+    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
+}
+.recomend {
+    width: 100%;
+}
+
+#contenedor {
+    text-align: left;
+    width: 100%;
+    margin: auto;
+ }
+   #lateral {
+    width: 30%;
+    float:right; 
+   }
+   #principal {
+    width: 68%;
+    float: left;
+    border: black 1px solid; 
+   }
+   .clearfix:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+
+.galee ul p {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: solid 3px black;
+    border-radius: 5px;
+}
+
+a {
+    border: solid 3px black;
+    border-radius: 1.5px;
+}
+
+footer {
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navdown {
+    padding: 3%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+}
+
+
+.search--wrapper {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+	
+.search--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.search--input-wrapper {
+	padding: 0 66px 0 0; 
+	overflow: hidden;
+}
+
+.search--input {
+  width: 100%;
+}
+
+.search {
+  padding: 0 25px 0 200px; 
+}
+
+.search--input {
+    -webkit-box-sizing:content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 60px;
+    padding: 0 45px 0 10px;
+	border-color: black;
+    border-radius: 35px; 
+    border-style: solid;
+	border-width: 5px;
+    margin-top: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+.search--submit {
+    position: absolute;
+    right: 0;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+    padding: 0;
+    border: none;
+	margin-top: 20px; 
+    margin-right: 5px; 
+	background: transparent;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.search--input:focus {
+  outline: none;
+  border-color: orange;
+}
+
+.search--input:focus.search--submit {
+ 	color: yellow; 
+}
+
+.search--submit:hover {
+  color: white;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: black;  
+}
+
+input:-moz-placeholder {
+  color: black
+}
+.lupa {
+    float: left;
+    margin: 25px;
+    line-height: 45px;
     text-align: center;
 }
