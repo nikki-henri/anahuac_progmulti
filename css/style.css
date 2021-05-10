@@ -72,6 +72,17 @@ footer {
     padding: 10px 5px 10px 5px;
 }
 
+h4 {
+    text-align: right;
+}  
+.post {
+    border: solid 3px black;
+    border-radius: 1.5px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
 .grupos {
     text-align: center;
 }
@@ -104,6 +115,24 @@ footer {
     box-sizing: border-box;
 }
 
+.biografia {
+    border: solid 2px black;
+    border-radius: 1.5px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+.bio1 {
+    border: solid 2px black;
+    border-radius: 1.5px;
+    width: 60%;
+    float: center;
+    box-sizing: border-box;
+}
+.bio1 p {
+    padding: 1.5px 50px;
+}
+
 .post1 .imag {
     text-align:left;
 }
@@ -134,6 +163,10 @@ footer {
     width: 200px; height: 20px;
     text-align: center;
     background-color: rgb(255, 208, 146);
+}
+
+.galee ul p {
+    padding: 30px 5px 30px 5px;
 }
 
 .galeria, 
