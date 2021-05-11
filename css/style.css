@@ -157,6 +157,10 @@ h4 {
     background-color: rgb(137, 35, 255);
 }
 
+.postea {
+    align-items: right;
+}
+
 .post3 ul p {
     border: solid 2px rgb(50, 50, 50);
     border-radius: 1.5px;
