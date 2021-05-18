@@ -102,6 +102,7 @@ h4 {
 
 .grupos {
     text-align: center;
+    padding: 20px 0 20px 0;
 }
 
 .puntos {
@@ -165,6 +166,20 @@ h4 {
     align-items: center;
 }
 
+.fototeca {
+    padding: 20px 0 20px 0;
+    border: solid 2px black;
+    border-radius: 1.5px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+.fototec img {
+    margin: 5px 10px 5px 20px;
+    align-items: center;
+    float: center;
+}
+
 .postea {
     color: white;
     text-align: center;
@@ -187,12 +202,19 @@ h4 {
 }
 
 .conte img {
-    padding: 30px 0 5px 30px;
+    padding: 20px 0 5px 20px;
+    width: 30%;
 }
 
 .encu {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0 0 0 30px;
+    padding: 10px 0 0 30px;
+}
+
+.princ {
+    border: solid 2px black;
+    border-radius: 1.5px;
+    padding: 10px 0 10px 0;
 }
 
 .titulo {
