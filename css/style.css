@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    padding: 0 1px 0 1px;
+    padding: 0 0.1px 0 0.1px;
 }
 
 body {
@@ -74,6 +74,11 @@ footer {
     margin: 15px;
 }
 
+.grupos {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
 .gruposs {
     border: solid 3px black;
     border-radius: 0.5px;
@@ -84,25 +89,29 @@ footer {
     margin: 8px 5px 8px 5px;
     width: 20%;
 } 
+
 .escribe img {
     bottom: initial;
 }
 
-
 h4 {
     text-align: right;
 }  
+
 .post {
     border: solid 3px black;
     border-radius: 1.5px;
     width: 100%;
     float: left;
     box-sizing: border-box;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.grupos {
-    text-align: center;
-    padding: 20px 0 20px 0;
+.txt {
+    border: solid 3px black;
+    border-radius: 1.5px;
+    padding: 5px 5px 5px 5px;   
 }
 
 .puntos {
@@ -111,16 +120,13 @@ h4 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.post {
-    float: left;
-    width: 100%;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+.imag,
+.info {
+    display: inline-table;
 }
 
-.post .p,
-.post .img {
-    align-items: center;
+.post1 .imag {
+    text-align:left;
 }
 
 .post1,
@@ -131,6 +137,7 @@ h4 {
     width: 100%;
     float: left;
     box-sizing: border-box;
+    padding: 10px 0 10px 0;
 }
 
 .biografia {
@@ -151,19 +158,8 @@ h4 {
     padding: 1.5px 50px;
 }
 
-.post1 .imag {
-    text-align:left;
-}
 .info{
     text-align: left;
-}
-.iconos {
-    cursor: pointer; 
-    display: inline-table;
-    width: 40%;
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
 }
 
 .fototeca {
@@ -180,17 +176,49 @@ h4 {
     float: center;
 }
 
+.imag {
+    float: left;
+    width: 10%;
+    padding: 10px 10px 10px 55px;
+}
+.info {
+    float: left;
+    width: 80%;
+    padding: 20px 0 20px 0;
+}
+
+.iconos {
+    width: 70%;
+    text-align: left;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.texto {
+    width: 20%;
+    text-align: left;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: left;
+    padding: 15px 0 5px 0;
+}
+.po {
+    display: inline;
+    float: right;
+    padding-right: 10px;
+}
 .postea {
+    float: right;
+    width: 10%;
     color: white;
+    font-size: 20px;
     text-align: center;
     border: solid 2px black;
     border-radius: 1.5px;
     width: 80px; height: 30px;
     background-color: rgb(137, 35, 255);
-}
-
-.postea {
-    align-items: right;
+    padding: 5px 10px 5px 10px;
 }
 
 .post3 ul p {
@@ -226,9 +254,15 @@ h4 {
     color: black;
     text-decoration: none;
 }
-
 .galee ul p {
     padding: 30px 5px 30px 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: solid 3px black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.400);
 }
 
 .galeria, 
@@ -237,16 +271,6 @@ h4 {
     display: inline-block;
     width: 100%;
     padding: 30px 5px 30px 5px;
-}
-
-.galee ul p {
-    text-align: center;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    border: solid 3px black;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.400);
 }
 
 .navdown {
@@ -303,12 +327,12 @@ h4 {
     float: left; 
     padding: 0 0.1% 0 2%;
 }
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
-
 .search--wrapper {
 	height: auto;
 	width: auto;
@@ -317,26 +341,21 @@ h4 {
 	background: transparent;
 	margin: 0;
 	position: static;
-}
-	
+}	
 .search--form {
 	overflow: hidden;
 	position: relative;
-}
-	
+}	
 .search--input-wrapper {
 	padding: 0 66px 0 0; 
 	overflow: hidden;
 }
-
 .search--input {
   width: 100%;
 }
-
 .search {
   padding: 0 25px 0 200px; 
 }
-
 .search--input {
     -webkit-box-sizing:content-box;
 	-moz-box-sizing: content-box;
@@ -354,7 +373,6 @@ h4 {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 }
-	
 .search--submit {
     position: absolute;
     right: 0;
@@ -372,25 +390,20 @@ h4 {
     font-size: 40px;
     line-height: 60px;
 }
-
 .search--input:focus {
   outline: none;
   border-color: orange;
 }
-
 .search--input:focus.search--submit {
  	color: black; 
 }
-
 .search--submit:hover {
   color: rgb(223, 198, 255);
   cursor: pointer;
 }
-
 ::-webkit-input-placeholder {
 	color: black;  
 }
-
 input:-moz-placeholder {
   color: black
 }
