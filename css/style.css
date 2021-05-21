@@ -76,7 +76,7 @@ footer {
 
 .grupos {
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 25px 2px 25px 2px;
 }
 
 .gruposs {
@@ -86,17 +86,19 @@ footer {
     text-align: center;
 }
 .gruposs img{
-    margin: 8px 5px 8px 5px;
+    margin: 15px 5px 15px 5px;
     width: 20%;
 } 
 
 .escribe img {
-    bottom: initial;
+    margin-top: 200px;
 }
 
 h4 {
     text-align: right;
+    padding-right: 20px;
 }  
+
 
 .post {
     border: solid 3px black;
@@ -106,12 +108,6 @@ h4 {
     box-sizing: border-box;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.txt {
-    border: solid 3px black;
-    border-radius: 1.5px;
-    padding: 5px 5px 5px 5px;   
 }
 
 .puntos {
@@ -147,23 +143,23 @@ h4 {
     float: left;
     box-sizing: border-box;
 }
+.bioimg {
+    margin-left: 20px;
+}
 .bio1 {
     border: solid 2px black;
     border-radius: 1.5px;
-    width: 60%;
-    float: center;
+    width: 68%;
     box-sizing: border-box;
+    margin-left: 230px;
 }
 .bio1 p {
+    border-radius: 10px;
     padding: 1.5px 50px;
 }
 
-.info{
-    text-align: left;
-}
-
 .fototeca {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 20px 40px;
     border: solid 2px black;
     border-radius: 1.5px;
     width: 100%;
@@ -171,9 +167,10 @@ h4 {
     box-sizing: border-box;
 }
 .fototec img {
-    margin: 5px 10px 5px 20px;
+    margin: 16px 15px 16px 15px;
     align-items: center;
     float: center;
+    width: 20%;
 }
 
 .imag {
@@ -182,26 +179,39 @@ h4 {
     padding: 10px 10px 10px 55px;
 }
 .info {
+    text-align: left;
     float: left;
-    width: 80%;
-    padding: 20px 0 20px 0;
+    width: 100%;
+    padding: 15px 0 15px 0;
 }
 
 .iconos {
+    padding-top: 30px;
     width: 70%;
     text-align: left;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
 }
+.infor {
+    padding-top: 20px;
+    text-align: left;
+    float: right;
+    width: 80%;
+}
+
+.icono {
+    float: right;
+    width: 85%;
+}
 
 .texto {
     width: 20%;
     text-align: left;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: left;
-    padding: 15px 0 5px 0;
+    padding: 40px 0 5px 0;
 }
 .po {
     display: inline;
@@ -222,15 +232,16 @@ h4 {
 }
 
 .post3 ul p {
+    padding: 5px 0 5px 0;
     border: solid 2px rgb(50, 50, 50);
-    border-radius: 1.5px;
+    border-radius: 0px;
     width: 200px; height: 20px;
     text-align: center;
-    background-color: rgb(255, 208, 146);
+    background-color: rgb(252, 165, 90);
 }
 
 .conte img {
-    padding: 20px 0 5px 20px;
+    padding: 50px 0 30px 20px;
     width: 30%;
 }
 
@@ -272,6 +283,9 @@ h4 {
     width: 100%;
     padding: 30px 5px 30px 5px;
 }
+.reco ul {
+    padding-left: 20px;
+}
 
 .navdown {
     width: 100%;
@@ -291,9 +305,9 @@ h4 {
 }
 
 .noticias {
-    padding: 30px 0 30px 180px;
+    padding: 20px 50px 20px 50px;
     border: solid 2px black;
-    border-radius: 1.5px;
+    border-radius: 0.5px;
     width: 100%;
     float: left;
     box-sizing: border-box;
@@ -302,8 +316,8 @@ h4 {
 .noticias .info p {
     border: solid black;
     border-radius: 1.5px;
-    padding: 15px 0 15px 0;
-    width: 70%;
+    padding: 20px 15px 20px 15px;
+    width: 100%;
     float: left;
     box-sizing: border-box;
 }
